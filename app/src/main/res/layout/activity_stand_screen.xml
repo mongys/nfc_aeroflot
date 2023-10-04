@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#02458d"
+    tools:context=".PlaneScreen">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="100dp"
+        android:src="@drawable/aeroflot1"
+        tools:layout_editor_absoluteX="47dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="match_parent"
+            android:layout_height="500dp"
+            android:layout_marginTop="100dp"
+            android:adjustViewBounds="true"
+            android:src="@drawable/example"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <View
+            android:id="@+id/A1"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="163dp"
+            android:layout_marginLeft="60dp" />
+        <View
+            android:id="@+id/A2"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="256dp"
+            android:layout_marginLeft="60dp" />
+        <View
+            android:id="@+id/A3"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="60dp" />
+        <View
+            android:id="@+id/A4"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="60dp" />
+
+        <View
+            android:id="@+id/B1"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="163dp"
+            android:layout_marginLeft="121dp" />
+        <View
+            android:id="@+id/B2"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="256dp"
+            android:layout_marginLeft="121dp" />
+        <View
+            android:id="@+id/B3"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="121dp" />
+        <View
+            android:id="@+id/B4"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="121dp" />
+
+        <View
+            android:id="@+id/C1"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="163dp"
+            android:layout_marginLeft="226dp" />
+
+        <View
+            android:id="@+id/C2"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:layout_marginLeft="226dp"
+            android:layout_marginTop="256dp"
+            android:background="#FF0000" />
+
+        <View
+            android:id="@+id/C3"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="226dp" />
+        <View
+            android:id="@+id/C4"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="226dp" />
+
+        <View
+            android:id="@+id/D1"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="163dp"
+            android:layout_marginLeft="285dp" />
+        <View
+            android:id="@+id/D2"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="256dp"
+            android:layout_marginLeft="285dp" />
+        <View
+            android:id="@+id/D3"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="285dp" />
+        <View
+            android:id="@+id/D4"
+            android:layout_width="57dp"
+            android:layout_height="87dp"
+            android:background="#FF0000"
+            android:layout_marginTop="445dp"
+            android:layout_marginLeft="285dp" />
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/backButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="30dp"
+        android:onClick="backClick"
+        android:text="Назад"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/reportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="-250dp"
+        android:layout_marginBottom="30dp"
+        android:onClick="reportClick"
+        android:text="Отчет"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/exportButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="250dp"
+        android:layout_marginBottom="30dp"
+        android:text="Экспорт"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/nfc_contents"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text=""
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
